@@ -2,12 +2,12 @@
 
 ## Table of Contents
 
--  [Data Analysis Project: Bike Sharing Dataset](#-data-analysis-project-bike-sharing-dataset-)
-  - [Table of Contents](#-table-of-contents)
-  - [Introduction](#-introduction)
-  - [Installation](#-installation)
-  - [Project Workflow](#-project-workflow)
-  - [Dashboard Explanation](#-dashboard-explanation)
+* Data Analysis Project: Bike Sharing Dataset
+  * Table of Contents
+  * Introduction
+  * Installation
+  * Project Workflow
+  * Dashboard Explanation
  
 ## Introduction
 
@@ -66,5 +66,5 @@ Navigate to the project directory and run the Streamlit app using the following 
    streamlit run Dashboard/Dashboard.py
    ```
 
-This will start the Streamlit server and open a new page in your default web browser with the URL of the Streamlit app. Or you can run the dashboard directly from the web browser by clicking on the following link: [LINK]()
+This will start the Streamlit server and open a new page in your default web browser with the URL of the Streamlit app. Or you can run the dashboard directly from the web browser by clicking on the following link: [LINK](https://data-analysis-bike-sharing-fp7zcwy4ymguzbathmuir5.streamlit.app/)
 
