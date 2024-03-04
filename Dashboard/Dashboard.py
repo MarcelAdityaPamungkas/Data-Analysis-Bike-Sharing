@@ -6,8 +6,8 @@ import streamlit as st
 
 sns.set(style='dark')
 
-days_df = pd.read_csv("C:/Users/ASUS/Downloads/days_clean.csv")
-hours_df = pd.read_csv("C:/Users/ASUS/Downloads/hours_clean.csv")
+days_df = pd.read_csv("Dashboard/days_clean.csv")
+hours_df = pd.read_csv("Dashboard/hours_clean.csv")
 
 # Defining a function called create_casual_total_df to prepare
 def create_casual_total_df(df):
