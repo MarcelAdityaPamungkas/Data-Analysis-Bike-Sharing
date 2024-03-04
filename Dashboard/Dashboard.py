@@ -67,7 +67,7 @@ max_date_hour = pd.to_datetime(hours_df["date"].max())
 
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("https://github.com/MarcelAdityaPamungkas/Data-Analysis-Bike-Sharing/blob/main/Dashboard/Logo_Image.png/")
+    st.image("Dashboard/Logo_Image.png")
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
         label = 'Rentang Waktu',
