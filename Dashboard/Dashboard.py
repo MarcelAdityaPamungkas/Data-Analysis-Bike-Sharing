@@ -113,9 +113,7 @@ days_df["month"] = pd.Categorical(days_df["month"], categories =
     ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
     ordered = True)
 
-monthly_counts = days_df.groupby(by = ["year", "month"]).agg({
-    "count": "sum"
-}).reset_index()
+monthly_counts = days_df.groupby(by = ["year", "month"]).agg({"count": "sum"}).reset_index()
 
 # Setting the style of the chart
 fig_total_bike, ax = plt.subplots(figsize=(16, 8))
@@ -255,9 +253,7 @@ days_df["workingday"] = pd.Categorical(days_df["workingday"], categories =
     ["Holiday/Weekend", "Workday"],
     ordered = True)
 
-workingday_counts = days_df.groupby(by = ["year", "workingday"]).agg({
-    "count": "sum"
-}).reset_index()
+workingday_counts = days_df.groupby(by = ["year", "workingday"]).agg({"count": "sum"}).reset_index()
 
 # Setting the style of the chart
 fig_workingday, ax = plt.subplots(figsize = (16, 8))
